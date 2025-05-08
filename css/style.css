@@ -93,6 +93,7 @@ i {
     font-size: 20px;
     background-color: var(--heart-bg-color);
     padding: 5px;
+    z-index: 30;
 }
 
 .badges {
@@ -143,4 +144,13 @@ i {
 .end_position {
     justify-content: space-between;
     align-items: center;
+}
+
+#hidden {
+    display: none;
+}
+
+#hidden:hover {
+    display: block;
+    z-index: 2;
 }
