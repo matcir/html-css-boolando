@@ -22,6 +22,8 @@ img{
     --eco-bg-color:green;
     --eco-text-color:white;
     --header-bg-color:#ff6900;
+    --heart-bg-color:white;
+
 }
 
 .d-flex{
@@ -58,5 +60,35 @@ i{
     height: auto;
 }
 
-    
+.site_main{
+    min-height: 1500px;
+}
 
+.container{
+    max-width: 1200px;
+    width: 80%;
+    margin: auto;
+}
+
+.row{
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+
+.col{
+    width: calc(100% / 12 * 4);
+    padding: 1rem;
+}
+
+.card{
+    position: relative;
+}
+
+.heart{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    font-size: 20px;
+    background-color: var(--heart-bg-color);
+    padding: 5px;
+}
