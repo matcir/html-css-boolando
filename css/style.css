@@ -4,11 +4,59 @@
     box-sizing: border-box;
 }
 
-body{
-    max-width: 1200px;
-}
-
 img{
     max-width: 100%;
     height: auto;
 }
+
+.debug{
+    border: 1px solid red;
+    background-color: yellow;
+}
+
+:root{
+    --top-text-color:white;
+    --product-text-color: black;
+    --sale-value-color:white;
+    --sale-bg-color:red;
+    --eco-bg-color:green;
+    --eco-text-color:white;
+    --header-bg-color:#ff6900;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.site_header{
+    min-height: 70px;
+    width: 100%;
+    background-color: var(--header-bg-color);
+}
+
+
+.nav{
+    color: var(--top-text-color);
+    min-height: 70px;
+    max-width: 1200px;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.symbols{
+    color: var(--top-text-color);
+}
+
+i{
+    padding: 5px;
+}
+
+#logo{
+    width: 100px;
+    height: auto;
+}
+
+    
+
