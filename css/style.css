@@ -92,3 +92,26 @@ i{
     background-color: var(--heart-bg-color);
     padding: 5px;
 }
+
+.sale{
+    position: absolute;
+    background-color: var(--sale-bg-color);
+    color: var(--sale-value-color);
+    padding: 3px 5px;
+    left: 0;
+    bottom: 60px;
+}
+
+.eco{
+    background-color: var(--eco-bg-color);
+    color: var(--eco-text-color);
+    padding: 3px 5px;
+    position: absolute;
+    left: 50px;
+    bottom: 60px;
+}
+
+.only_eco{
+    bottom: 60px;
+    left: 0;
+}
