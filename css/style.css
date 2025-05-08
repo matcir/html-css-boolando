@@ -1,43 +1,43 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-img{
+img {
     max-width: 100%;
     height: auto;
 }
 
-.debug{
+.debug {
     border: 1px solid red;
     background-color: yellow;
 }
 
-:root{
-    --top-text-color:white;
+:root {
+    --top-text-color: white;
     --product-text-color: black;
-    --sale-value-color:white;
-    --sale-bg-color:red;
-    --eco-bg-color:green;
-    --eco-text-color:white;
-    --header-bg-color:#ff6900;
-    --heart-bg-color:white;
-
+    --sale-value-color: white;
+    --sale-bg-color: red;
+    --eco-bg-color: green;
+    --eco-text-color: white;
+    --header-bg-color: #ff6900;
+    --heart-bg-color: white;
+    --price-color: red;
 }
 
-.d-flex{
+.d-flex {
     display: flex;
 }
 
-.site_header{
+.site_header {
     min-height: 70px;
     width: 100%;
     background-color: var(--header-bg-color);
 }
 
 
-.nav{
+.nav {
     color: var(--top-text-color);
     min-height: 70px;
     max-width: 1200px;
@@ -47,44 +47,44 @@ img{
     align-items: center;
 }
 
-.symbols{
+.symbols {
     color: var(--top-text-color);
 }
 
-i{
+i {
     padding: 5px;
 }
 
-#logo{
+#logo {
     width: 100px;
     height: auto;
 }
 
-.site_main{
+.site_main {
     min-height: 1500px;
 }
 
-.container{
+.container {
     max-width: 1200px;
     width: 80%;
     margin: auto;
 }
 
-.row{
+.row {
     flex-wrap: wrap;
     margin: 0 -1rem;
 }
 
-.col{
+.col {
     width: calc(100% / 12 * 4);
     padding: 1rem;
 }
 
-.card{
+.card {
     position: relative;
 }
 
-.heart{
+.heart {
     position: absolute;
     top: 5px;
     right: 0;
@@ -93,25 +93,28 @@ i{
     padding: 5px;
 }
 
-.sale{
+.badges {
     position: absolute;
+    left: 0;
+    bottom: 100px;
+}
+
+.sales {
     background-color: var(--sale-bg-color);
     color: var(--sale-value-color);
     padding: 3px 5px;
-    left: 0;
-    bottom: 60px;
 }
 
-.eco{
+.ecos {
     background-color: var(--eco-bg-color);
     color: var(--eco-text-color);
     padding: 3px 5px;
-    position: absolute;
-    left: 50px;
-    bottom: 60px;
 }
 
-.only_eco{
-    bottom: 60px;
-    left: 0;
+#price {
+    color: var(--price-color);
+}
+
+#old_price {
+    padding-left: 5px;
 }
