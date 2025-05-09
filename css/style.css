@@ -34,15 +34,17 @@ img {
 }
 
 .site_header {
-    min-height: 70px;
+    min-height: 50px;
     width: 100%;
     background-color: var(--header-bg-color);
+    position: fixed;
+    z-index: 2;
 }
 
 
 .nav {
     color: var(--top-text-color);
-    min-height: 70px;
+    min-height: 50px;
     max-width: 1200px;
     width: 80%;
     margin: auto;
@@ -65,6 +67,7 @@ i {
 
 .site_main {
     min-height: 1000px;
+    margin-bottom: 80px;
 }
 
 .container {
@@ -94,7 +97,6 @@ i {
     font-size: 20px;
     background-color: var(--heart-bg-color);
     padding: 5px;
-    z-index: 30;
 }
 
 .badges {
