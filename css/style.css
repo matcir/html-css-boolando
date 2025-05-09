@@ -7,6 +7,7 @@
 img {
     max-width: 100%;
     height: auto;
+    vertical-align: center;
 }
 
 .debug {
@@ -146,11 +147,19 @@ i {
     align-items: center;
 }
 
+
+
 #hidden {
     display: none;
 }
 
-#hidden:hover {
-    display: block;
-    z-index: 2;
+.card_img:hover {
+
+    #img {
+        display: none;
+    }
+
+    #hidden {
+        display: block;
+    }
 }
